@@ -1,0 +1,8 @@
+transformers
+torch==2.2.2
+sentencepiece
+sacrebleu
+tqdm
+pandas
+numpy<2
+
