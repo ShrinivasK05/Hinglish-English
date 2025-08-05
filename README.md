@@ -2,7 +2,7 @@
 
 This project implements a **two-stage curriculum learning approach** using the **facebook/mbart-large-cc25** model to translate **code-mixed Hinglish** (Hindi-English) sentences into standard English. It sets a new state-of-the-art performance on the PHINC dataset with a **BLEU score of 31.6**, surpassing previous benchmarks.
 
-## 🚀 Project Highlights
+##  Project Highlights
 
 - **Model**: mBART (Multilingual BART) - `facebook/mbart-large-cc25`
 - **Approach**: Two-stage curriculum learning
