@@ -11,7 +11,7 @@ This project implements a **two-stage curriculum learning approach** using the *
 - **Dataset**: PHINC (13,789 Hinglish-English sentence pairs)
 - **BLEU Score**: 31.6 (7.1% improvement over prior SOTA)
 
-## 📂 Dataset
+## Dataset
 
 - **PHINC Dataset**: Contains 13,789 parallel Hinglish-English sentences.
 - Preprocessing includes:
@@ -19,14 +19,14 @@ This project implements a **two-stage curriculum learning approach** using the *
   - Transliteration inconsistency cleanup
   - Sentence length filtering (3–50 tokens)
 
-## 🛠️ Tools and Libraries
+## Tools and Libraries
 
 - Python, PyTorch
 - Hugging Face Transformers
 - SentencePiece Tokenizer (mBART)
 - sacreBLEU for evaluation
 
-## 📌 Methodology
+## Methodology
 
 1. **Preprocessing**
    - Noise removal, punctuation normalization
@@ -47,7 +47,7 @@ This project implements a **two-stage curriculum learning approach** using the *
    - sacreBLEU (BLEU-4) on test set (2,789 samples)
    - Real-time interactive inference module
 
-## 📈 Results
+## Results
 
 | Model                            | BLEU Score |
 |----------------------------------|------------|
@@ -62,14 +62,14 @@ Sample Translation:
 | `Main surprised hu ye itna low hai`           | `I'm surprised how low it is.`                   |
 | `Kal party mein aana hai kya?`                | `Are you coming to the party tomorrow?`         |
 
-## 💡 Future Work
+##  Future Work
 
 - Extend to other code-mixed languages (e.g., Tamlish, Benglish)
 - Integrate language identification as an auxiliary task
 - Use transformer variants (BigBird, Longformer) for longer sequences
 - Deploy real-time inference in production environments (e.g., WhatsApp/Twitter)
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 Special thanks to:
 - PES University (CCBD & CDSAML)
